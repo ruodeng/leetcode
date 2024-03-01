@@ -13,7 +13,7 @@ class Solution:
         for g1 in grid:
             for g2 in grid2:
                 if g1 == g2:
-                    count+=1
+                    count+=1  
         return  count
 
         # freq = Counter(tuple(row) for row in grid)
